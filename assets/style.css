@@ -98,6 +98,10 @@ main {
     padding-bottom: 1rem;
 }
 
+.change {
+    position: relative;    
+}
+
 p {
     font-size: 8px;
 }
