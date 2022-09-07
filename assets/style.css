@@ -99,7 +99,30 @@ main {
 }
 
 .change {
-    position: relative;    
+    position: relative;
+}
+
+.man1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.change:hover .man1 {
+    visibility: visible;
+}
+
+.bdg_red {
+    font-size: 6px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--red);
+    width: 20px;
+    height: 10px;
+    position: relative;
+    bottom: 30px;
 }
 
 p {
