@@ -24,8 +24,9 @@ img {
 
 .row {
     display: flex;
-    gap: 3rem;
+    gap: 10px;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .row_header {
@@ -91,6 +92,7 @@ a {
 }
 /* #endregion header */
 
+/* #region main */
 main {
     padding-top: 1rem;
 }
@@ -106,3 +108,4 @@ p {
 .price_red {
     color: var(--red);
 }
+/* #endregion main */
