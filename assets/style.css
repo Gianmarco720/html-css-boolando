@@ -1,0 +1,95 @@
+/* common rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --green: #008000;
+    --black: #1A1A1A;
+    --red: #FF0000;
+    --white: #FFFFFF;
+    --orange: #FF6900;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    gap: 1rem;
+}
+
+.row_header {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+/* #region colonne */
+.col_1 {
+    width: calc((100% / 12) * 1);
+}
+
+.col_2 {
+    width: calc((100% / 12) * 2);
+}
+
+.col_3 {
+    width: calc((100% / 12) * 3);
+}
+
+.col_4 {
+    width: calc((100% / 12) * 4);
+}
+
+.col_5 {
+    width: calc((100% / 12) * 5);
+}
+
+.col_6 {
+    width: calc((100% / 12) * 6);
+}
+/* #endregion colonne */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* #region header */
+header {
+    background-color: var(--orange);
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+
+}
+
+.fa-solid {
+    color: var(--white);
+}
+
+.fa-regular {
+    color: var(--white);
+}
+
+.fa-heart {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* #endregion header */
+
+main {
+    padding-top: 1rem;
+}
