@@ -102,17 +102,18 @@ main {
     position: relative;
 }
 
-.man1 {
+.card_change {
     position: absolute;
     top: 0;
     left: 0;
     visibility: hidden;
 }
 
-.change:hover .man1 {
+.change:hover .card_change {
     visibility: visible;
 }
 
+/* #region badge */
 .bdg_red {
     font-size: 6px;
     font-weight: bold;
@@ -137,7 +138,7 @@ main {
     bottom: 40px;
     left: 22px
 }
-
+/* #endregion badge */
 p {
     font-size: 8px;
 }
