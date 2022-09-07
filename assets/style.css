@@ -98,6 +98,8 @@ main {
     padding-bottom: 1rem;
 }
 
+
+/* #region hover */
 .change {
     position: relative;
 }
@@ -112,6 +114,7 @@ main {
 .change:hover .card_change {
     visibility: visible;
 }
+/* #endregion hover */
 
 /* #region badge */
 .bdg_red {
