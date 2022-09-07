@@ -136,9 +136,23 @@ main {
     height: 10px;
     position: relative;
     bottom: 40px;
-    left: 22px
+    left: 22px;
+}
+
+.bdg_green2 {
+    font-size: 6px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--green);
+    width: 50px;
+    height: 10px;
+    position: relative;
+    bottom: 40px;
+    left: 0;
 }
 /* #endregion badge */
+
 p {
     font-size: 8px;
 }
