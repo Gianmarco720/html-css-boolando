@@ -95,6 +95,7 @@ a {
 /* #region main */
 main {
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 p {
@@ -109,3 +110,30 @@ p {
     color: var(--red);
 }
 /* #endregion main */
+
+footer {
+    background-color: var(--black);
+    font-size: small;
+    color: var(--white);
+    p
+}
+
+.row_footer {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.footer_info {
+    font-size: 8px;
+    padding-top: 5px;
+}
+
+#privacy {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.icons {
+    padding-top: 5px;
+}
