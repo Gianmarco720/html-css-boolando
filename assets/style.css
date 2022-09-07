@@ -24,7 +24,8 @@ img {
 
 .row {
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
+    flex-wrap: wrap;
 }
 
 .row_header {
@@ -92,4 +93,16 @@ a {
 
 main {
     padding-top: 1rem;
+}
+
+p {
+    font-size: 8px;
+}
+
+.price {
+    font-size: 8px;
+}
+
+.price_red {
+    color: var(--red);
 }
